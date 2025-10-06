@@ -696,6 +696,39 @@
   \end{tabular*}%
 }
 
+\newcommand*{\cventrycompact}[5]{%
+  \vspace{-2mm}%
+  \setlength\tabcolsep{0pt}%
+  \setlength{\extrarowheight}{0pt}%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}%
+    \ifstrempty{#2#3}{}{%
+      \entrytitlestyle{#2} & \entrylocationstyle{#3} \\[-1pt]%
+    }%
+    \ifstrempty{#1#4}{}{%
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\[-1pt]%
+    }%
+    \ifstrempty{#5}{}{%
+      \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\[-2pt]%
+    }%
+  \end{tabular*}%
+}
+
+\newcommand*{\cvpublication}[5]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    \ifempty{#2#3}
+      {\entrypositionstyle{\normalfont #1} & \entrydatestyle{#4} \\}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+      \entrypositionstyle{\normalfont #1} & \entrydatestyle{#4} \\}
+    \ifstrempty{#5}
+      {}
+      {\multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\}
+  \end{tabular*}%
+}
+
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
