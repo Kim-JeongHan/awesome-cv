@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759775792.90556 "/home/jeonghan/workspace/awesome-cv/examples/cv.tex" "cv.pdf" "cv" 1759775795.14696 2
-  "/home/jeonghan/workspace/awesome-cv/examples/cv.tex" 1759775792.59602 3764 fd1c568fc429c575bbb2fae1d0415b87 ""
+["pdflatex"] 1759806704.49516 "/home/jeonghan/workspace/awesome-cv/examples/cv.tex" "cv.pdf" "cv" 1759806706.32668 0
+  "/home/jeonghan/workspace/awesome-cv/examples/cv.tex" 1759803763.62712 3755 e71cf229c9ba043a197c017f20b2a4cc ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -166,15 +166,15 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1759741041 5937120 2736158a015cf691c90ab7d1627b5dea ""
   "/usr/local/texlive/2025/texmf.cnf" 1759740910.9192 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "awesome-cv.cls" 1759758793.64602 31342 15423ac608de06da1ecd2379693981f6 ""
-  "cv.aux" 1759775794.72602 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
-  "cv.tex" 1759775792.59602 3764 fd1c568fc429c575bbb2fae1d0415b87 ""
+  "cv.aux" 1759806706.00712 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
+  "cv.tex" 1759803763.62712 3755 e71cf229c9ba043a197c017f20b2a4cc ""
   "cv/education.tex" 1759755575.71602 843 8fb1b12528a72ca91f3d7922072c8234 ""
-  "cv/experience.tex" 1759768385.44602 4946 93fc62c8bfd9981d069b0f988696f2e5 ""
-  "cv/extracurricular.tex" 1759758824.83602 1812 58013c0fde83ea492c1332b1f4f826f2 ""
+  "cv/experience.tex" 1759806341.98712 4845 b7de086d5c432a15d43d269e153fd5a1 ""
+  "cv/extracurricular.tex" 1759804277.90712 1791 47cdb28a376f621708db55fc0ac41acd ""
   "cv/honors.tex" 1759766413.75602 2103 f6c97fa88ab00573b4866f4aa4ee451f ""
-  "cv/publications.tex" 1759755409.21602 1866 00400dc089644502f8c68da5580656cf ""
+  "cv/publications.tex" 1759806704.28712 2044 abf8d03ca522948f7a65e0e1d7e5dfdf ""
   "cv/skills.tex" 1759766489.49602 748 42b7ecb8d766e67f39b069d9d7f0798c ""
-  "examples/profile2.jpg" 0 -1 0 ""
+  "profile2.jpg" 1759755515.13602 9759752 67157940a8d21d8c715914d3ebcd0355 ""
   (generated)
   "cv.aux"
   "cv.log"
